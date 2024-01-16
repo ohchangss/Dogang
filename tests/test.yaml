@@ -1,0 +1,14 @@
+# USER
+ID : 1test1
+NAME : ohchangss
+
+# DATA
+DATANAME : iris.csv
+COLNAME : ["sepal.length","sepal.width","petal.length","petal.width"]
+TARGETNAME : ["variety"]
+DATAINFO : None
+# DATALOADER
+# MODEL
+# TRAIN
+# EVAL
+# SAVE

@@ -5,8 +5,8 @@ import yaml
 
 class TestYaml(unittest.TestCase):
     def setUp(self) -> None:
-        with open('./test.yaml','rb') as f:
-            self.yaml = yaml.load(f)
+        with open('./test.yaml') as f:
+            self.yaml = yaml.full_load(f)
 
     def test_read_yaml(self):
         print(self.yaml)

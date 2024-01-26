@@ -1,8 +1,6 @@
 import unittest
-import tempfile
-import os
-import sys
 import yaml
+
 class TestYaml(unittest.TestCase):
     def setUp(self) -> None:
         with open('rec/test_rec/test.yaml') as f:
